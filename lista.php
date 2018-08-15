@@ -12,6 +12,7 @@ if($resultado = mysqli_query($conexao, $sql)){
     <th>Data de Conlusão</th>
     <th>Concluir</th>
     <th>Deletar</th>
+    <th>Editar</th>
     </tr>";
     while($dado = mysqli_fetch_assoc($resultado)){
         if($dado['data_conclusao'] == null){
@@ -28,6 +29,7 @@ if($resultado = mysqli_query($conexao, $sql)){
         <td>$dc</td>
         <td>$concluir</td>
         <td><a href='deletar.php?id=$dado[id]'>Deletar</a></td>
+        <td><a href='index.php?id=$dado[id]&value=$dado[tarefa]'>Editar</a></td>
         </tr>";
     }
     echo "</table>";
