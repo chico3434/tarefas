@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  text-align: center;
+  background-color: #808080;
+}
+
+#titulo {
+  font-size: 15pt;
+}
+
+#sub-titulo {
+  font-size: 13pt;
+  font-style: none;
+}
+
+#corpo {
+  background-color: #aaaaaa;
+}
+
+#form {
+  text-align: center;
+}
+
+#lista {
+  padding: 1%;
+}
+
+td{
+  background-color: #707070;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #606060;
+  padding: 2%;
+}
